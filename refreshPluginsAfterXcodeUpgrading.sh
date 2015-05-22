@@ -6,5 +6,5 @@ echo Xcode DVTPlugInCompatibilityUUID is $UUID
 for MyPlugin in ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/*
 do
 	defaults write "$MyPlugin"/Contents/Info DVTPlugInCompatibilityUUIDs -array-add $UUID
-	echo write DVTPlugInCompatibilityUUID to $MyPlugin succeed!
+	echo write DVTPlugInCompatibilityUUID to $MyPlugin succeeded!
 done
