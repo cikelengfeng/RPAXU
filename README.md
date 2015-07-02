@@ -8,4 +8,4 @@
 
 
 # 注意
-该脚本依赖[defaults](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/defaults.1.html)命令行工具
+该脚本依赖[PlistBuddy](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/PlistBuddy.8.html)命令行工具
