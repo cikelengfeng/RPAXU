@@ -8,4 +8,6 @@
 
 
 # 注意
-该脚本依赖[PlistBuddy](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/PlistBuddy.8.html)命令行工具
+1. Xcode 6.4之后会要求用户确认是否加载非苹果官方插件，对话框如下![dialog image](https://cloud.githubusercontent.com/assets/1871108/7218140/a761e32c-e629-11e4-8f97-dc452ebcef16.png)
+  点击Load Bundles即可
+2. 该脚本依赖[PlistBuddy](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/PlistBuddy.8.html)命令行工具
